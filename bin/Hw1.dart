@@ -1,5 +1,5 @@
 class Hw1 {
-  void start(List<String> arguments) {
+  void start() {
     String someWords = "one two three";
     final int num = 123;
     String word = "dart";
