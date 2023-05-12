@@ -1,14 +1,14 @@
 class Hw1 {
   void start() {
-    String someWords = "one two three";
-    final int num = 123;
-    String word = "dart";
-    String concatenation = "$someWords $word"; // interpolation
+    String _someWords = "one two three";
+    final int _num = 123;
+    String _word = "dart";
+    String _concatenation = "$_someWords $_word"; // interpolation
 
-    print("$someWords $num $word $concatenation");
+    print("$_num $_word $_concatenation");
 
-    if (num > 100) {
-      print("$num > 100");
+    if (_num > 100) {
+      print("$_num > 100");
     }
   }
 }

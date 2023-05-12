@@ -2,17 +2,17 @@ import 'dart:math';
 
 class Hw2 {
   void start() {
-    print(walk(21, 27));
-    print(walk(19, 27));
-    print(walk(46, -9));
-    print(walk(27, -30));
-    print(walk(8, 35));
+    print(_walk(21, 27));
+    print(_walk(19, 27));
+    print(_walk(46, -9));
+    print(_walk(27, -30));
+    print(_walk(8, 35));
     print(" ");
 
-    print(walk(generateRandomAge(), 23));
+    print(_walk(_generateRandomAge(), 23));
   }
 
-  String walk(int age, int temp) {
+  String _walk(int age, int temp) {
     if ((age > 20 && age < 45) && temp > -20 && temp < 30) {
       return "Можно идти гулять";
     } else if (age < 20 && (temp > 0 && temp < 28)) {
@@ -23,5 +23,5 @@ class Hw2 {
     return ("Оставайтесь дома");
   }
 
-  int generateRandomAge() => Random().nextInt(80);
+  int _generateRandomAge() => Random().nextInt(80);
 }
