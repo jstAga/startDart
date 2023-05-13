@@ -1,20 +1,19 @@
 import 'package:dart/dart.dart' as dart;
 
-import 'Hw1.dart';
-import 'Hw2.dart';
-import 'Hw3.dart';
-import 'hw5/Hw5.dart';
+import '1month/hw1/Hw1.dart';
+import '1month/hw2/Hw2.dart';
+import '1month/hw3/Hw3.dart';
+import '1month/hw5/Hw5.dart';
+import '1month/hw6/Hw6.dart';
 
 void main(List<String> arguments) {
-  // var hw1 = Hw1();
-  // hw1.start();
+  // Hw1().start();
   //
-  // var hw2 = Hw2();
-  // hw2.start();
+  // Hw2().start();
   //
-  // var hw3 = Hw3();
-  // hw3.start();
+  // Hw3().start();
+  //
+  // Hw5().start();
 
-  var hw5 = Hw5();
-  hw5.start();
+  Hw6().start();
 }
