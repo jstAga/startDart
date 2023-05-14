@@ -7,6 +7,7 @@ import '1month/hw5/Hw5.dart';
 import '1month/hw6/Hw6.dart';
 import '1month/hw7/hw7.dart';
 import '2month/hw1/hw1m2.dart';
+import '2month/hw2/hw2m2.dart';
 
 void main(List<String> arguments) {
   // Hw1().start();
@@ -21,5 +22,7 @@ void main(List<String> arguments) {
   //
   // Hw7().start();
 
-  Hw1m2().start();
+  // Hw1m2().start();
+
+  Hw2m2.start();
 }

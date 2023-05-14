@@ -1,0 +1,1 @@
+enum CarName{toyota, mercedes, volvo}
