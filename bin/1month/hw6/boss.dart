@@ -1,5 +1,5 @@
-import 'GameEntity.dart';
-import 'Weapon.dart';
+import 'game_entity.dart';
+import 'weapon.dart';
 
 class Boss extends GameEntity {
   late final Weapon _weapon;

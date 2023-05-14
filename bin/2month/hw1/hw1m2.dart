@@ -4,7 +4,7 @@ import 'person.dart';
 import 'programmer.dart';
 
 class Hw1m2 {
-  void start() {
+  static void start() {
     Person _person = Person("Bob", 25);
     _person.greet();
 

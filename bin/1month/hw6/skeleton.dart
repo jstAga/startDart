@@ -1,4 +1,4 @@
-import '../hw6/Boss.dart';
+import '../hw6/boss.dart';
 
 class Skeleton extends Boss{
 

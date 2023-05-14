@@ -1,5 +1,5 @@
-class Hw1 {
-  void start() {
+class Hw1m1 {
+  static void start() {
     String _someWords = "one two three";
     final int _num = 123;
     String _word = "dart";

@@ -3,8 +3,8 @@ import 'magic.dart';
 import 'medic.dart';
 import 'warrior.dart';
 
-class Hw7 {
-  void start() {
+class Hw7m1 {
+  static void start() {
     List<Hero> heroList = [
       Magic(100, 5, "Fireball"),
       Medic(80, 0, "Heal"),
