@@ -1,9 +1,9 @@
-import '../hw6/Boss.dart';
-import 'Skeleton.dart';
-import 'Weapon.dart';
+import '../hw6/boss.dart';
+import 'skeleton.dart';
+import 'weapon.dart';
 
-class Hw6 {
-  void start() {
+class Hw6m1 {
+  static void start() {
     Boss boss = Boss(1000, 25, "SUPER BOSS", Weapon("Long Sword", "Melee"));
     print(boss.printInfo());
 
